@@ -8,7 +8,7 @@
 City.create([
   {name: 'Nashville', img_url:'https://i.imgur.com/OMn2L7Q.jpg'},
   {name: 'NYC', img_url: 'https://i.imgur.com/8pkCGFc.jpg'},
-  {name: 'Houston', img_url:'https://i.imgur.com/undefined.png'},
+  {name: 'Houston', img_url:'https://i.imgur.com/zob1XNF.jpg'},
   {name:'LA', img_url:'https://i.imgur.com/mYHrOab.jpg'}
   ]);
 
