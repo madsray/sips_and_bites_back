@@ -5,12 +5,12 @@ class BarsController < ApplicationController
   def index
     @bars = Bar.all
 
-    render json: @bars
+    render json: @bars.to_json(include: :reviews)
   end
 
   # GET /bars/1
   def show
-    render json: @bar
+    render json: @bar.to_json(include: :reviews)
   end
 
   # POST /bars
