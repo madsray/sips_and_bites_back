@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 City.create([
   {name: 'Nashville', img_url:'https://i.imgur.com/OMn2L7Q.jpg'},
   {name: 'NYC', img_url: 'https://i.imgur.com/8pkCGFc.jpg'},
