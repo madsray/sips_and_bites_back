@@ -49,8 +49,7 @@ Category.create([
     ]);
 
     Review.create([
-      {name: 'GG', content:'this bar is awesome.', rating:4},
-      {name: 'Sean', content: 'probably will not return', rating: 0},
-      {name: 'Liz', content:'love this bar', rating:5}
-
+      {name: 'GG', content:'this bar is awesome.', rating:4, bar_id: 1},
+      {name: 'Sean', content: 'probably will not return', rating: 0, bar_id:1},
+      {name: 'Liz', content:'love this bar', rating:5, bar_id:2}
       ])

@@ -18,7 +18,7 @@ class BarsController < ApplicationController
     @bar = Bar.new(bar_params)
 
     if @bar.save
-      render json: @bar, status: :created, location: @bar
+      render json: @bar, status: :created, location: @bars
     else
       render json: @bar.errors, status: :unprocessable_entity
     end
